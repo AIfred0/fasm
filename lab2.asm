@@ -11,4 +11,5 @@ section '.text' executable
 _start:
     call input_number
     call goldbach
+    call print_enter
     call exit
