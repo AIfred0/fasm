@@ -9,8 +9,8 @@ include "asmlib/string.inc"
 include "asmlib/sys.inc"
 
 section '.data' writable
-    filename db "SUMDIGITIN.txt", 0
-    filename2 db "SUMDIGITOUT.txt", 0
+    filename db "source/SUMDIGITIN.txt", 0
+    filename2 db "source/SUMDIGITOUT.txt", 0
 
 section '.bss' writable
     buffer_size equ 50
