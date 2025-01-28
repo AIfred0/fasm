@@ -1,4 +1,4 @@
-MAIN = lab3
+MAIN = lab4
 CC = fasm
 LIBS = asmlib/filesys.asm asmlib/input.asm asmlib/print.asm asmlib/math.asm asmlib/string.asm asmlib/sys.asm
 LIBS_OBJ = asmlib/filesys.o asmlib/input.o asmlib/print.o asmlib/math.o asmlib/string.o asmlib/sys.o
